@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.top-banner{
+    display: flex;
+    padding-left: 100px;
+    padding-top: 80px;
+}
+#top-banner p{
+    margin-bottom: 45px;
+    font-size: 20px;
+    color: #828282;
+    font-weight: 500;
+    line-height: 32px;
+}
+#top-banner h1{
+    font-size: 60px;
+    color: #575757;
+    font-weight: 700;
+    margin-top: 180px;
+    margin-bottom: 45px;
+    line-height: 75px;
+}
+.half-width{
+    width: 50%;
+}
+.highlighter{
+    color: #FBA24F;
+}
+.btn{
+ text-decoration: none;
+ color: #ffffff;
+ background-image: linear-gradient(to right,#fc8f49,#fd5432);
+ padding: 20px 45px;
+ border-radius: 25px;
+ font-size: 18px;
+ font-weight: 600;
+}
