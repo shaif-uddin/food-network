@@ -96,6 +96,7 @@ body{
     padding: 0 90px;
     display: flex;
     margin-top: 20px;
+    margin-bottom: 100px;
 }
 .receipe-item h3{
 font-weight: 800;
@@ -126,9 +127,30 @@ padding: 0 10px;
     border-image-slice: 9;
 }
 /* Milestone Section */
-.milestone{
-    box-shadow: 10px 10px 40px grey;
+.milestone-row{
+    margin: 0 90px;
+}
+.milestone-item{
+    margin: 0 auto;
+}
+.milestone-item h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: #18191F;
+}
+.milestone-item p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #18191F;
+    text-align: left;
+}
+.milestone-container{
+    box-shadow: 0px 0px 5px 5px #8080801f;
     border: 7px solid;
     border-color: white;
     border-image-slice: 9;
+    display: flex;
 }
+/* Footer Section */
