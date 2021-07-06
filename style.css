@@ -2,6 +2,36 @@ body{
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
+.header-container{
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    color: #18191F;
+    font-size: 16px;
+    background-color: #ffffff;
+    box-shadow: 0 5px 5px 0 #6d6f8582;
+}
+.header-container a{
+    text-decoration: none;
+    padding: 5px 10px 5px 20px;
+    color: #18191F;
+}
+.header-left{
+margin-left: 0;
+}
+.header-right{
+margin-right: 0;
+}
+.header-right ul{
+    margin: 0;
+}
+.header-right li{
+    list-style-type: none;
+    display: inline;
+    padding: 5px 5px;
+}
+/* Top Banner */
 .top-banner{
     display: flex;
     padding-left: 100px;
