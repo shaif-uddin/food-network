@@ -6,6 +6,10 @@ body{
     display: flex;
     padding-left: 100px;
     padding-top: 80px;
+    margin-bottom: 100px;
+}
+#about{
+    display: flex;
 }
 #top-banner p{
     margin-bottom: 45px;
@@ -36,4 +40,35 @@ body{
  border-radius: 25px;
  font-size: 18px;
  font-weight: 600;
+}
+.about{
+    display: flex;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.about-person{
+    padding-left: 200px;
+}
+.about img{
+    width: 60%;
+}
+.about-text{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.about-text h1{
+    color: #707070;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 45px;
+}
+.about-text p{
+    color: #18191F;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 60px;
 }
