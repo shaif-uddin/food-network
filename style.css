@@ -152,5 +152,33 @@ padding: 0 10px;
     border-color: white;
     border-image-slice: 9;
     display: flex;
+    margin-bottom: 100px;
 }
 /* Footer Section */
+footer{
+background-color: #0B0D17;
+padding:40px 0 100px;
+
+}
+.footer-container{
+    margin: 0 auto;
+    text-align: center;
+}
+footer h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 35px;
+    color: #5B5B5B;
+    margin-bottom: 35px;
+}
+.special{
+    color:#fc8f49;
+}
+
+.footer-container p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+}
